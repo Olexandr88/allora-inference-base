@@ -90,7 +90,7 @@ If you plan to deploy temporarily without attempting to connect to the Allora bl
 
 `--allora-chain-topic-id` is the topic in which your worker registers on the appchain. This will be used for evaluating performance and allocating rewards.
 
-`allora-chain-initial-stake` is the stake that you want your node to register as initial stake. The stake is cross-topic, so this is applied only upon registration of a node on the chain. It will not have an effect on subsequent runs when the node is already registered. To modify node stake, please refer to [Allora Network](github.com/allora-network/allora-appchain) client.
+`allora-chain-initial-stake` is the stake that you want your node to register as initial stake. The stake is cross-topic, so this is applied only upon registration of a node on the chain. It will not have an effect on subsequent runs when the node is already registered. To modify node stake, please refer to [Allora Network](github.com/allora-network/) client.
 
 ### Keys
 The `--private-key` sets the Blockless peer key for your particular node. Obviously, please use different keys for different nodes.
